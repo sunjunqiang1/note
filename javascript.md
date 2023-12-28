@@ -42,11 +42,11 @@
 8. commonjs 和 es module 的区别
 
    	1. 两者的导入导出方式不同，commonjs使用module.export 和 require导出和导入，而es module 使用 export 和 import 导出和导入
-
+   	
    	1. commonjs 是动态引入的， 不必要在代码的顶部引入， 而 import是静态的， 必须在代码的顶部引入；
-
+   	
    	1. commonjs 是在运行时加载模块，而esmodule是在编译时加载模块，commonjs 导入是对值的引用， 可以修改， 而 import 引入是只读的；
-
+   	
    	1. commonjs 是单值导出，  es module 可以多值导出。
 
 9. promise所有的方法
@@ -59,13 +59,16 @@
    7. any：返回第一个成功的promise的值
    8. resolve
    9. reject
+
 10. async await和promise的关系
 
- 	1. async 函数直接调用在没有await的时候， 返回一个promise
- 	2. await 后面可以跟promise函数
- 	3. async 和 await和promise一样都是非阻塞的；
- 	4. async 和 await 可以说是一个改良版的promise
- 	5. 
+1. async 函数直接调用在没有await的时候， 返回一个promise
+
+2. await 后面可以跟promise函数
+
+3. async 和 await和promise一样都是非阻塞的；
+
+4. async 和 await 可以说是一个改良版的promise
 
 
 
