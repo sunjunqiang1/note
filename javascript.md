@@ -7,7 +7,7 @@
 
 ​	闭包让开发者在内部函数可以访问外部函数的作用域，闭包会随着函数创建被同时创建。
 
-应用场景：自执行函数、函数柯里化、链式调用、$message
+应用场景：自执行函数、函数柯里化、链式调用、$message、防抖、节流
 
 3. 防抖和节流
 
@@ -70,7 +70,23 @@
 
 4. async 和 await 可以说是一个改良版的promise
 
+esnext新增了哪些特性
 
+​	2016： includes , 幂运算符
+
+​	2017：padStart, padEnd 前填充和后填充字符串， includes 
+
+​	2018：对象的解构赋值，对象新增了获取其描述信息的方法，promise新增finally方法
+
+​	2019：try/catch 允许增加参数，增加Symbol.description，object.fromEntries() 将键值对转为新的对象，字符串新增trimStart 和 trimEnd方法，字符串新增了matchAll方法
+
+​	2020：新增BigInt数据类型，Promise.allSettled方法，增加globalThis全局变量，新增可选链，新增空值合并运算符
+
+​	2021：数字可以增加下划线连接、增加了 &&=,||=,??=
+
+​	2022:top level awalt、字符串新增.at方法返回给定下标的字符串
+
+​	2023：数组新增findLast、at方法
 
 问题
 
