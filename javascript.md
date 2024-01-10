@@ -92,11 +92,31 @@ esnext新增了哪些特性
 
 优点、缺点
 
+浏览器缓存
 
+强缓存
 
+expires： http1.0 值为资源的过期时间， 如果服务器和客户端时间不一样则会有问题
 
+cache-control：使用max-age来设置资源的过期时间， 单位为秒。资源缓存策略：
 
+​	public：所有内容都将被缓存（客户端和服务器代理）
 
+​	private：只有客户端缓存
+
+​	no-cache：不使用强制缓存， 但使用协商缓存
+
+​	no-store：不使用强制缓存也不使用协商缓存
+
+协商缓存
+
+​	Last-Modified：资源的最后修改时间
+
+​	Etag：当前资源的唯一标识（由服务器生成）
+
+​	If-Modified-Since：对应Last-Modified，服务器通过该时间判断资源是否有效
+
+​	If-None-Match：资源唯一标识，判断该资源是否有效
 
 
 
